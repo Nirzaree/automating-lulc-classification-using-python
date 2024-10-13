@@ -5,7 +5,7 @@ repo.
 
 This repo is built on the part 2 of the [lulc tutorial](https://github.com/climatechange-ai-tutorials/lulc-classification/blob/main/land_use_land_cover_part2.ipynb) in CCAI Summer school. 
 
-High level flow: 
+**High level flow:**
 1. Select region of interest and get the boundary of the region
 2. Get sentinel2 data (R,G,B) (preferably a median image for a time period of interest) for the region of interest
 3. Generate 64x64 tiles within the region of interest (as required by the model in this case)
